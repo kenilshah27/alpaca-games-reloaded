@@ -11,8 +11,13 @@
     background-color: #333;
     color: white;
     text-align: center;
+    margin-bottom: 50px;
+      border-radius: 0;
 }
 
+.footer-add {
+  background-color:#004D85;
+}
  
   .fling-minislide {
     height: 500px; 
@@ -58,58 +63,7 @@
 
 
 
-.footer {
-  color: white; 
-  display:block;
-  border-top: 1px solid #e5e5e5;
-  bottom:0;
-  width: 1350px;
-  width: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:14px;
 
-}
-
-
-footer [class ^= 'footer-'] {
-  width: 435px; /* 435/1350 = 32.222222%) */
-  width: 32.222222%; 
-  display: inline-block;
-  height:223px;
-  padding-top:10px;
-  text-align: center;
- 
-}
-
-footer .footer-left {
-  float: left;
-  padding-left:10px;
-
-
-}
-
-footer .footer-right {
-float: right;
-
-}
-.footer_container
-{
-  background-color:#004D85;
-  clear:both;
-}
-footer a {
-  text-decoration: none;
-  color: #eee;
-
-}
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 270px;
-  width: 20%;    /* 270/1350= 20% */
-  padding: 2% 2% 2% 3%;
-}
 
 /* Style the counter cards */
 .card {
@@ -117,19 +71,14 @@ footer a {
   padding: 16px;
   text-align: center;
   background-color: #004D85;
-  height: 60%;
-  
+  height: 60%;  
 }
 
 .card_image{
-  float: center;
-  width: 100%;
+  width: 90%;
   height: 90%;
   border: white solid;
-  border-image: 20px;
-  
-  
-
+  min-height: 250px;
 }
 .card_container{
  
@@ -156,13 +105,9 @@ footer a {
 .card_button{
     float: right;
     background-color: rgb(243, 32, 17); 
-    border: none;
     color: white;
-    padding: 8px;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
-    margin: 11px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -235,19 +180,6 @@ width: 100%;
 
 }
 
-
-.footer {
-  width:376px;
-  width: 100%;
-}
-
-
-footer [class ^= 'footer-'] {
-  width: 220px;
-  width:31.428571%;   /* 220/700= 31.428571% */
-  height:230px;
-  font-size:9px;
- }
  
  .column{
  	width: 100%;
