@@ -1,0 +1,25 @@
+.contact-box-container{
+    width : 70%;
+    margin : auto;
+    text-align: center;
+    
+ }
+ .contact-box-container h3{
+    background-color:#004D85;
+    color: white;
+    font-weight: bolder;
+
+	
+ }
+ .contact-box-container form{
+    border : solid 1px;
+    background-color:#004D85;
+    text-align: center;
+        color: white;
+        
+ }
+ .submit{
+    text-align: center;
+        color: black;
+        
+ }
